@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 1px rgba(33, 20, 20, 0.4);
+}
+
+.inputBox {
+  display: grid;
+  gap: 1rem 0rem;
+  justify-content: flex-start;
+  grid-template-columns: auto minmax(auto, 400px);
+}
+
+.inputBox > label {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.inputBox > input {
+  margin-left: 0.8rem;
+  border-radius: 0.4rem;
+}
